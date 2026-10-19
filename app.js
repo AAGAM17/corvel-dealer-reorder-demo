@@ -28,7 +28,7 @@ const ICONS = {
   orders: '<path d="M6 3h12v18l-3-2-3 2-3-2-3 2z"/><path d="M9 8h6M9 12h6"/>',
   about: '<circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/>',
 };
-const TABS = [['catalogue', 'Catalogue'], ['reorder', 'Reorder'], ['cart', 'Cart'], ['orders', 'Orders'], ['about', 'How it works']];
+const TABS = [['catalogue', 'Catalogue'], ['reorder', 'Reorder'], ['cart', 'Cart'], ['orders', 'Orders'], ['about', 'About']];
 
 const stepper = (id, q) => q
   ? `<div class="stepper" role="group" aria-label="Quantity"><button data-act="dec" data-id="${id}" aria-label="Fewer">−</button><output>${q}</output><button data-act="inc" data-id="${id}" aria-label="More">+</button></div>`
