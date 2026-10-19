@@ -1,0 +1,29 @@
+{
+  "supplier": "Corvel Packaging",
+  "categories": ["Cartons", "Mailers", "Boxes", "Film", "Tape & labels"],
+  "products": [
+    { "id": "c1", "name": "Tuck-end carton 100×60×150", "category": "Cartons", "pack": "Pack of 250", "price": 48.0 },
+    { "id": "c2", "name": "Crash-lock carton 120×80×200", "category": "Cartons", "pack": "Pack of 200", "price": 62.5 },
+    { "id": "c3", "name": "Leaflet carton 60×40×120", "category": "Cartons", "pack": "Pack of 500", "price": 71.0 },
+    { "id": "m1", "name": "Die-cut mailer 250×180×50", "category": "Mailers", "pack": "Pack of 100", "price": 39.0 },
+    { "id": "m2", "name": "Die-cut mailer 350×250×80", "category": "Mailers", "pack": "Pack of 50", "price": 44.5 },
+    { "id": "b1", "name": "Shipper box 300×200×150", "category": "Boxes", "pack": "Pack of 25", "price": 28.0 },
+    { "id": "b2", "name": "Shipper box 450×300×300", "category": "Boxes", "pack": "Pack of 20", "price": 41.0 },
+    { "id": "b3", "name": "Rigid lid and base 200×200×80", "category": "Boxes", "pack": "Pack of 10", "price": 55.0 },
+    { "id": "f1", "name": "Stand-up pouch 150×220", "category": "Film", "pack": "Pack of 500", "price": 66.0 },
+    { "id": "f2", "name": "Garment polybag 300×400", "category": "Film", "pack": "Pack of 1,000", "price": 34.0 },
+    { "id": "t1", "name": "Printed tape 48 mm × 66 m", "category": "Tape & labels", "pack": "Pack of 36 rolls", "price": 52.0 },
+    { "id": "t2", "name": "Shipping label roll 100×150", "category": "Tape & labels", "pack": "Pack of 4 rolls", "price": 19.5 }
+  ],
+  "usual": [
+    { "id": "c1", "qty": 4 },
+    { "id": "m1", "qty": 2 },
+    { "id": "b1", "qty": 6 },
+    { "id": "t1", "qty": 1 }
+  ],
+  "history": [
+    { "no": "CRV-250912-K3M1", "date": "2025-09-12", "status": "Delivered", "lines": [{ "id": "c1", "qty": 4 }, { "id": "b1", "qty": 6 }] },
+    { "no": "CRV-250814-Q7ZD", "date": "2025-08-14", "status": "Delivered", "lines": [{ "id": "m1", "qty": 2 }, { "id": "t1", "qty": 1 }, { "id": "f2", "qty": 3 }] },
+    { "no": "CRV-250716-A9XP", "date": "2025-07-16", "status": "Delivered", "lines": [{ "id": "c2", "qty": 3 }, { "id": "b2", "qty": 2 }] }
+  ]
+}

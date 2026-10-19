@@ -1,0 +1,16 @@
+{
+  "name": "Corvel Dealer Reorder (Demo)",
+  "short_name": "Corvel",
+  "description": "Demo app by Aagam Shah - sample data. A fictional dealer reorder app.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f4f1ea",
+  "theme_color": "#ff4b14",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
